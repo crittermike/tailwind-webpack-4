@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-webpack-4",
+  "version": "1.0.0",
+  "description": "Example of using Tailwind with Webpack 4",
+  "main": "assets/js/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "postcss-loader": "^2.1.5",
+    "style-loader": "^0.21.0",
+    "tailwindcss": "^0.6.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
