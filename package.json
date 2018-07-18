@@ -4,7 +4,7 @@
   "description": "Example of using Tailwind with Webpack 4",
   "main": "assets/js/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack --watch --mode development",
     "build": "webpack --mode production"
   },
   "devDependencies": {
@@ -14,7 +14,6 @@
     "style-loader": "^0.21.0",
     "tailwindcss": "^0.6.1",
     "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-cli": "^3.0.8"
   }
 }
